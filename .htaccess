@@ -1,0 +1,13 @@
+AuthUserFile /var/www/.htpasswd_aci
+AuthGroupFile /dev/null
+AuthName "Acces securise "
+AuthType Basic
+Require valid-user
+<Files login.pl>
+AuthUserFile /var/www/.htpasswd_aci
+AuthGroupFile /dev/null
+AuthName "Acces securise login"
+AuthType Basic
+Require user philippe sylvain daniel jojo chantal pierrette
+</Files>
+

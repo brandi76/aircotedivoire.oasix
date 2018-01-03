@@ -1,0 +1,8 @@
+for i in ` grep "\.pl" kit.pl | cut -f2 -d';'`
+do
+if grep "$1" $i
+then
+vi $i
+fi
+done
+

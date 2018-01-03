@@ -1,0 +1,19 @@
+
+The Root object in ../../dfc.oasix/doc/ePPsoWD_.pdf couldn't be found, aborting
+
+The error occurred when executing:
+ at blib/lib/PDF/Reuse.pm (autosplit into blib/lib/auto/PDF/Reuse/xRefs.al) line 4199
+	PDF::Reuse::xRefs(0, '../../dfc.oasix/doc/ePPsoWD_.pdf') called at blib/lib/PDF/Reuse.pm (autosplit into blib/lib/auto/PDF/Reuse/analysera.al) line 5866
+	PDF::Reuse::analysera('../../dfc.oasix/doc/ePPsoWD_.pdf', 1, '') called at blib/lib/PDF/Reuse.pm (autosplit into blib/lib/auto/PDF/Reuse/prDoc.al) line 3562
+	PDF::Reuse::prDoc('../../dfc.oasix/doc/ePPsoWD_.pdf') called at mag_kit.pl line 1247
+	require mag_kit.pl called at /var/www/cgi-bin/aircotedivoire.oasix/kit.pl line 110
+
+Situation when the error occurred
+
+   Bytes written to the current pdf-file,    pos    = 15
+   Object processed, not necessarily written objNr  = 3
+   Current pdf-file,                         utfil  = ../../dfc.oasix/doc/group_1260.pdf
+   File logging the run,                     runfil = undef
+   Local time                                       = Fri Nov 28 16:11:36 2014
+
+

@@ -1,0 +1,5 @@
+print "<center><br><br><br><br>";
+print "<img src=\"/kit/images/hotesse_oasix.jpg\" border=0 >";
+print "<br><a href=http://195.7.127.98/cgi-bin/fly/kit-corsica.pl> Lien vers extranet maritime</a>";
+
+;1 

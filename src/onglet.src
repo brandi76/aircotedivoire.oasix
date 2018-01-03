@@ -1,0 +1,16 @@
+my($i);
+my @menu=();
+foreach (@data){
+	if (! grep(/^\t/,$_)){
+		$menu[$i++]=$_;
+	}
+}
+# @menu=("Fichiers","Planning","Achat","Depart","Retour","Autres");
+
+for ($i=0;$i<=$#menu;$i++)
+{
+	print "<td width=\"93\" height=\"25\" background=\"/kit/images/";
+	if ($onglet==$i) {print "boutonActive.gif\"";} else {print "boutonNormal.gif\"";}
+	print " class=\"menu\"><div align=\"center\"><a href=?onglet=$i>&nbsp;".$menu[$i]."</a></div></td>\r\n";
+}
+1;

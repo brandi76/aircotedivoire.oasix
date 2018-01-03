@@ -1,0 +1,5 @@
+AuthUserFile /var/www/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Acces securise camairco"
+AuthType Basic
+Require user sylvain philippe monteiro daniel

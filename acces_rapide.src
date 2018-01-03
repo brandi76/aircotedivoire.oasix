@@ -1,0 +1,7 @@
+print "<center><div class=titre>Acces rapide</div><br>";
+print "<a href=http://www.google.fr target=_blank><img src=\"/kit/images/google.jpg\" border=0 ></a><br>";
+print "<a href=http://sql.dom/cgi-bin/myadmin2.pl?database=FLY&username=root&password=&host=192.168.1.87&sql_interface=Sql+Interface.fr target=_blank><img src=\"/kit/images/myadmin.png\" border=0 ></a><br><br>";
+print "<a href=http://192.168.1.86/menu_corsica.html target=_blank><img src=\"/kit/images/corsicaferries.gif\" border=0 ></a><br>";
+print "<a href=http://192.168.1.86/cgi-bin/projet.pl>Suivi de projet</a><br>";
+
+;1 

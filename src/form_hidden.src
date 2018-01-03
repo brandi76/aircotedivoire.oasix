@@ -1,0 +1,3 @@
+print "<input type=hidden name=onglet value=$onglet> 
+<input type=hidden name=sous_onglet value=$sous_onglet> 
+<input type=hidden name=sous_sous_onglet value=$sous_sous_onglet>";

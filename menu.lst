@@ -1,0 +1,138 @@
+__DATA__
+Fichier
+	Produit
+		Consultation;fiche_produit_kit.pl
+		Listing produit;listing_prod.pl;1
+		Inventaire journalier;inventaire_jour_kit.pl
+		Inventaire mensuel;inventaire_mois_kit.pl
+		Valeur;valeur_stockcomptable.pl;1
+		Trace ecart;trace_ecart_kit.pl
+		Vente;vte_produit_kit.pl
+		Suivi mouvement;mouvement_produit_kit.pl
+		Consultation;fiche_client.pl;1
+		Listing prix;listing_prix.pl;1
+		Statistique;statvente_AAAA.pl;1
+		Statistique new;statvente_AA_kit.pl
+		Ecart inventaire;ecart_inv_kit.pl
+	Fournisseur
+		Consultation;fiche_four_kit.pl
+		Stock alerte;stock_alerte_kit.pl
+		Commande;commande_kit.pl
+		concours guerlain;concours_guerlain.pl;1
+	Caisse	
+		Saisie;saicaisse.pl;1
+		Equipages;equipage.pl;1
+		Recap de caisse;recap.pl;1
+		Commissions;commission.pl;1
+		Stim;stim.pl;1
+		Chargement;compta_chargement_kit.pl
+		Saisie Remise;remise_banque_kit.pl
+		Edition Bordereau;bordereau_edition_kit.pl
+		Edition Bordereau 2;bordereau_edition2_kit.pl ;2
+		Edition Bordereau 3;bordereau_edition3_kit.pl ;2
+		Ecart commission;ecart_commission_kit.pl
+		Comptage coffre;coffre_kit.pl
+		Controle des dates de remise;recap_date_kit.pl;2
+		suivi des encaissements;suivi_encaissement_v1_kit.pl
+		Relevé de banque;import_releve_kit.pl
+		Suivi Cb;suivi_remisecb_kit.pl;2
+		Recap Ecart Commision;recap_ecart_commission_kit.pl;2
+	Douane
+		Reedition saiappauto;saiappautom.pl;1
+		Saiappauto;saiappauto.pl;1
+		Bon en attente;liste_non_sai_kit.pl
+		Bon en l'air;liste_enlair_kit.pl
+		Recap mensuel;dcg.pl;1
+		Recap mensuel entrepot douane;dcg_douane.pl;1
+		Compta matiere;list_compta2.pl;1
+		Edition des dcg;reg_vente2.pl;1
+		Recap mensuel (inventaire);dcgdouane.pl;1
+	Trolley
+		Gestion des lots;lot_kit.pl
+		Trolley type;gestrolley_kit.pl
+		Ordre;fiche_ordre_kit.pl
+		Tri Ordre;tri_ordre_kit.pl
+		Pas touché;pastouche_kit.pl
+		Verification des prix;verif_prix_kit.pl
+	Tpe
+		Importation des ventes;import_vente_kit.pl
+		Voir les ventes;import_oasix_kit.pl
+		Numerotation tpe;oasix_tpe_kit.pl
+		Liste produit;sk20xml2_kit.pl
+		Verif Liste;verif_tpe_kit.pl
+	Hotesse
+		Consultation;fiche_hotesse.pl;1
+	Client 
+		Fiche client;fiche_client.pl;1
+	Appro
+		Debug;debug_appro.pl;1
+		Destination;modifdest_kit.pl
+		Commentaire;commentaire_kit.pl
+		Statistique;stat_bon_pie.pl
+		Etude marche;stat_bon_pie2.pl
+		Ajout rotation;ajout_rot_kit.pl
+		Reedition appro;edite_appro.pl;1
+	Devise
+		Cours;devise_kit.pl
+		Choix devise;choixdevise_kit.pl
+	Famille
+		Gestion;fiche_famille_kit.pl
+	Passager
+		Gestion;fiche_passager_kit.pl
+	Mag
+		Gestion;mag_kit.pl
+		Prix visuel;fiche_pubmag_kit.pl
+Planning
+	Consultation
+		Consultation;planningfly_kit.pl
+	Vol regulier
+		Vol regulier;calendrier.pl;1
+		Suppression de vols;supvol_kit.pl
+Achat
+	Commande
+		Commande;commande_kit.pl
+		Adresse Livraison;fiche_adresse_liv_kit.pl
+	Stock alerte
+		stock alerte;stock_alerte_kit.pl
+	Suivi fournisseur
+		suivi fournisseur;suivi_four_kit.pl
+	Historique entrée
+		Historique;histo_entree_kit.pl
+	Statistique entrée
+		Statistique;stat_entree_kit.pl
+Depart
+	Preparation
+		Preparation;preparation.pl;1
+		Saisie des ecarts;saisie_ecart_kit.pl
+	Bordereau de livraison
+		Bordereau;livraison.pl;1
+	Commande
+		Saisie;commande_client_kit.pl
+		Facture;facture.pl;1
+		Note de detail;saisie.pl;1
+	Commande Web
+		Liste;commande_web_kit.pl
+Retour
+	Saisie
+		Saisie;saiapp.php;1
+		Saisie new;saiapp_kit.pl
+		Tpe;import_oasix_kit.pl
+	Avis de retour
+		Avis de retour;avisret_kit.pl
+		Liste des retours;info_ret_kit.pl
+	Statistique
+		Ranking;statistique_kit.pl
+		Qualite;qualite_retour.php;1
+		Concours;concours.pl;1
+		Valeur Achat;ca_achat.pl;1
+Autres
+	faq
+		foire aux questions;faq.pl
+	Fichier tpe
+		fichier pour sk20;fichier_poursk20.pl;1
+	Admin
+		Situation;situation_kit.pl
+		Controle des ecarts de caisse;recap_justif2.pl;1
+		Controle des ecarts de caisse v2;recap_justif3.pl;1
+		Saisie Remise dev;remise_banque_devkit.pl
+		Traceur;traceur_kit.pl
