@@ -14,3 +14,4 @@ print <<eof
 eof
 
 # -E test de l'antenne radio
+hello
